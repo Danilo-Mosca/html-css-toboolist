@@ -21,6 +21,8 @@
   max-width: 1200px;
   /* border: 2px solid red; */
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: white;
 }
 
@@ -41,7 +43,8 @@ body {
 
 /* Header */
 header {
-  height: 80px #F6F8F9;
+  height: 80px;
+  background-color: #F6F8F9;
 }
 
 #logo img,
@@ -63,12 +66,13 @@ h1 {
 
 /* -------- Sezione pulsanti --------- */
 #nav {
+  padding-left: 30px;
   border-bottom: 2px solid #F6F8F9;
   ;
 }
 
 #nav button {
-  margin: 10px;
+  margin: 3px;
   padding: 10px 20px;
   border: 0px;
   border-radius: 5px;
