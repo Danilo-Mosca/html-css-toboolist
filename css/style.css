@@ -44,7 +44,7 @@ body {
 /* Header */
 header {
   height: 80px;
-  background-color: #F6F8F9;
+  background-color: white;
 }
 
 #logo img,
@@ -66,7 +66,7 @@ h1 {
 
 /* -------- Sezione pulsanti --------- */
 #nav {
-  padding-left: 30px;
+  padding-left: 40px;
   border-bottom: 2px solid #F6F8F9;
   ;
 }
@@ -81,15 +81,15 @@ h1 {
   background-color: #47ADF1;
 }
 
-button #active {
+button#active {
   background-color: #47ADF1;
 }
 
-button #deselected {
+button#deselected {
   margin-left: 5px;
   background-color: white;
-  color: #F6F8F9;
-  border: 1px solid #F6F8F9;
+  color: #b6d6e6;
+  border: 2px solid #ccdce4;
 }
 
 /* --------- End sezione pulsanti --------- */
@@ -112,10 +112,12 @@ p {
   height: 20px;
   display: inline-block;
   text-align: center;
-  line-height: 20px;
+  line-height: 19px;
   border-radius: 50%;
   border: 2px solid #70C5B1;
   color: #70C5B1;
+  font-size: 11px;
+  font-weight: 900;
 }
 
 .cross-check {
@@ -123,10 +125,12 @@ p {
   height: 20px;
   display: inline-block;
   text-align: center;
-  line-height: 20px;
+  line-height: 19px;
   border-radius: 50%;
   border: 2px solid #F6B8B5;
   color: #F6B8B5;
+  font-size: 11px;
+  font-weight: 900;
 }
 
 /* Label del menu */
