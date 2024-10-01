@@ -7,7 +7,7 @@
 #D863A1; pink label
 #B0C926; green label
 #70C5B1; green check mark box OK
-#F6B9B6; red cross
+#F6B8B5; red cross
 -------------------------------- */
 
 /* General */
@@ -96,6 +96,8 @@ button #deselected {
 }
 
 p {
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -103,11 +105,31 @@ p {
 
 .circle-check {
   width: 20px;
-    height: 20px;
-    display: inline-block;
-    text-align: center;
-    line-height: 20px;
-    border-radius: 50%;
-    border: 1px solid #70C5B1;;
-    color: #70C5B1;;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  border: 2px solid #70C5B1;
+  color: #70C5B1;
+}
+
+.cross-check {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  border: 2px solid #F6B8B5;
+  color: #F6B8B5;
+}
+
+/* Label del menu */
+.label-list {
+  height: 20px;
+  background-color: #47ADF1;
+  padding: 5px 15px;
+  border-radius: 30px;
+  color: white;
 }
