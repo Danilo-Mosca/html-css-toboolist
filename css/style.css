@@ -128,8 +128,14 @@ p {
 /* Label del menu */
 .label-list {
   height: 20px;
-  background-color: #47ADF1;
   padding: 5px 15px;
   border-radius: 30px;
   color: white;
+}
+.blue {
+  background-color: #47ADF1;
+}
+
+.purple {
+  background-color: #9C72E4;;
 }
