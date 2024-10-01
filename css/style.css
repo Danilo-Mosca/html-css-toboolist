@@ -6,78 +6,88 @@
 #F29E33; orange label
 #D863A1; pink label
 #B0C926; green label
-#BDE5DC; green check mark box OK
+#70C5B1; green check mark box OK
 #F6B9B6; red cross
 -------------------------------- */
 
 /* General */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 1200px;
-    border: 2px solid red;
-    margin: 0 auto;
-    background-color: white;
+  max-width: 1200px;
+  border: 2px solid red;
+  margin: 0 auto;
+  background-color: white;
 }
 
 main {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-color: #F6F8F9;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #F6F8F9;
 
 }
- /* Font del body */
+
+/* Font del body */
 body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 
 /* Header */
 header {
-    height: 80px #F6F8F9;
+  height: 80px #F6F8F9;
 }
-#logo img, h1{
-    display: inline-block;
-    line-height: 80px;
-    vertical-align: middle;
-}
- header img {
-    padding-left: 30px;
- }
+
+#logo img,
 h1 {
-    font-size: 3em;
+  display: inline-block;
+  line-height: 80px;
+  vertical-align: middle;
 }
+
+header img {
+  padding-left: 30px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
 /* ---------- End header ------------ */
 
 /* -------- Sezione pulsanti --------- */
 #nav {
-  border-bottom: 2px solid #F6F8F9;;
+  border-bottom: 2px solid #F6F8F9;
+  ;
 }
+
 #nav button {
-    margin: 10px;
-    padding: 10px 20px;
-    border: 0px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 500;
-    background-color: #47ADF1;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  background-color: #47ADF1;
 }
 
 button #active {
-    background-color: #47ADF1;
+  background-color: #47ADF1;
 }
+
 button #deselected {
-    margin-left: 5px;
-    background-color: white;
-    color: #F6F8F9;
-    border: 1px solid #F6F8F9;
+  margin-left: 5px;
+  background-color: white;
+  color: #F6F8F9;
+  border: 1px solid #F6F8F9;
 }
+
 /* --------- End sezione pulsanti --------- */
 
 /* Sezione main */
@@ -85,63 +95,19 @@ button #deselected {
   margin: 40px;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
-
-
-
-
-
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
+.circle-check {
+  width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    border: 1px solid #70C5B1;;
+    color: #70C5B1;;
+}
