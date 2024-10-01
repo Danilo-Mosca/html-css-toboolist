@@ -5,7 +5,7 @@
 #64C0A9; green label
 #F29E33; orange label
 #D863A1; pink label
-#B0C926; green label
+#B0C926; lightgreen label
 #70C5B1; green check mark box OK
 #F6B8B5; red cross
 -------------------------------- */
@@ -19,7 +19,7 @@
 
 .container {
   max-width: 1200px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 0 auto;
   background-color: white;
 }
@@ -138,4 +138,20 @@ p {
 
 .purple {
   background-color: #9C72E4;;
+}
+
+.green {
+  background-color: #64C0A9;
+}
+
+.orange {
+  background-color: #F29E33;
+}
+
+.pink {
+  background-color: #D863A1;
+}
+
+.light-green {
+  background-color: #B0C926;
 }
